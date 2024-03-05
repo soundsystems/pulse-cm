@@ -4,26 +4,26 @@
  * @see https://v0.dev/t/21UGHU1bB4d
  */
 import Link from "next/link"
+import Header from "@/components/ui/header"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { JSX, SVGProps } from "react"
-import Header from "@/components/ui/header"
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100vh] lowercase">
-      <Header/>
+<Header/>
       <main className="flex-1">
         <section className="w-full flex h-96 md:h-auto justify-center items-center bg-baby dark:bg-black py-12 md:py-24 lg:py-32 xl:py-48">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold text-cream tracking-tighter text-pretty sm:text-5xl lg:text-6xl">
-                   Pulse Community Agency
+                   Work w/ Pulse
                 </h1>
                 <p className="mx-auto text-lightrose text-pretty text-lg/snug md:text-xl lg:text-2xl xl:text-3xl">
-                  Empower your community to <br className="sm:hidden"/>
-                  <span> expand your brand's reach.</span>
+                  Are you a builder? <br className="sm:hidden"/>
+                  <span>Join our contract team today.</span>
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
@@ -41,26 +41,25 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="services" className="w-full flex justify-center items-center py-12 md:py-24 lg:py-32 bg-amethyst dark:bg-black">
+        <section className="w-full flex justify-center items-center py-12 md:py-24 lg:py-32 bg-amethyst dark:bg-black">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl text-cream font-bold tracking-tighter sm:text-5xl">Our Services</h2>
+                <h2 className="text-3xl text-cream font-bold tracking-tighter sm:text-5xl">job opportunities</h2>
                 <p className="max-w-[900px] text-lightrose text-base/relaxed md:text-lg/relaxed lg:text-xl/relaxed">
-                  We offer a range of services to help you build, manage and grow your community. Our team of experts
-                  are dedicated to your success.
+                Become part of our team of experts dedicated to building, managing, and growing communities. we are always hiring engineers, designers, and other freelance contractors on a per-project.
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section id='team' className="w-full h-96 flex justify-center items-center py-12 dark:bg-black bg-oyster md:py-24 lg:py-32">
+        <section className="w-full h-96 flex justify-center items-center py-12 dark:bg-black bg-oyster md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl text-cream font-bold tracking-tighter sm:text-5xl">Meet the Team</h2>
+                <h2 className="text-3xl text-cream font-bold tracking-tighter sm:text-5xl">current offerings</h2>
                 <p className="max-w-[900px] text-lightrose text-base/relaxed md:text-lg/relaxed lg:text-xl/relaxed">
-                  Our experience spans three industries and 
+                    Please check back later.
                 </p>
               </div>
             </div>
